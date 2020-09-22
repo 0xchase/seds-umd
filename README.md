@@ -14,3 +14,9 @@ Repository for the software team of the SEDS org at the University of Maryland.
  - NASA's CubeSat [design specifications](https://static1.squarespace.com/static/5418c831e4b0fa4ecac1bacd/t/56e9b62337013b6c063a655a/1458157095454/cds_rev13_final2.pdf)
  - A [list of CubeSats](https://en.wikipedia.org/wiki/List_of_CubeSats)
  - Launch initiative [resources](https://www.nasa.gov/content/cubesat-launch-initiative-resources) by NASA
+
+### Timeline
+
+The following is the timeline recommended by NASA.
+
+<img src="resources/schedule.png">
