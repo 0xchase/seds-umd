@@ -1,4 +1,4 @@
-# SEDS at UMD
+# SEDS at UMD <img src="https://www.spacestationexplorers.org/wp-content/uploads/2018/02/seds-usa.jpg" align="right" alt="logo" width="240">
 
 Repository for the software team of the SEDS org at the University of Maryland.
 
