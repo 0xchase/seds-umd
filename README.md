@@ -15,7 +15,7 @@ Repository for the software team of the SEDS org at the University of Maryland.
  - A [list of CubeSats](https://en.wikipedia.org/wiki/List_of_CubeSats)
  - Launch initiative [resources](https://www.nasa.gov/content/cubesat-launch-initiative-resources) by NASA
 
-### Timeline
+## Timeline
 
 The following is the timeline recommended by NASA.
 
