@@ -4,7 +4,7 @@ This week we will be setting up our development environment and conducting resea
 
 ## Instructions
 ### Development Environment Setup
- - If you already have a linux environment you can skip this section
+ - If you already have a linux environment you can skip this section (except the repo cloning)
  - Set up an [Ubuntu VM](https://ubuntu.com/) in [VirtualBox](https://www.virtualbox.org/wiki/Downloads). There are plenty of [tutorials](https://www.nakivo.com/blog/install-ubuntu-on-virtualbox-virtual-machine/) online explaining how to do this.
  - Clone this repository onto your VM. All our future code will go there. 
  - If you have issues with any of the above, message Chase on Slack. 
