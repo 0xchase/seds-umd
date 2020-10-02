@@ -1,6 +1,6 @@
 # Group 1
 
-Members: Grace Liu, Cindy Yang, Christopher Ciccone
+Members: Grace Liu, Cindy Yang, Christopher Ciccone, Abhishek Shastry
 
 This week we will be setting up our development environment and conducting research into various parts of the design. All groups will set up the same development environment, but will be doing different research. 
 
