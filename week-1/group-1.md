@@ -4,7 +4,7 @@ This week we will be setting up our development environment and conducting resea
 
 ## Instructions
 ### Development Environment Setup
- - All groups will complete the following tasks
+ - If you already have a linux environment you can skip this section (except the repo cloning)
  - Set up an [Ubuntu VM](https://ubuntu.com/) in [VirtualBox](https://www.virtualbox.org/wiki/Downloads). There are plenty of [tutorials](https://www.nakivo.com/blog/install-ubuntu-on-virtualbox-virtual-machine/) online explaining how to do this.
  - Clone this repository onto your VM. All our future code will go there. 
  - If you have issues with any of the above, message Chase on Slack. 
@@ -20,7 +20,7 @@ As a general guideline, we're interested in information like:
  - Are their radiation hardened variants of this system?
  - What I/O does this platform offer?
 
-These are general guidelines, but use your own judgement to determine what you think the group needs to know. Don't spend an inordinate amount of time on this, we have a lot of time to pin down our design.
+These are general guidelines, but use your own judgement to determine what you think the group needs to know. Don't spend an inordinate amount of time on this, we have a lot of time to pin down our design. If the dev environment setup takes people a while, we can push some of the research to next week. 
 
  ---
  
