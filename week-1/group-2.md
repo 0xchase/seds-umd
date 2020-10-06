@@ -25,7 +25,7 @@ These are general guidelines, but use your own judgement to determine what you t
 ## Results
  
  - TPL5010-Q1 is a dedicated external hardware watchdog (AEC-Q100 qualified timer)
-	- >$1 off-the-shelf (ti.com)
+	- <$1 off-the-shelf (ti.com)
 	- ideal for duty-cycled or battery-powered application
 	- consumes 35 nA at 2.5 V
 	- good for power-sensitive applications (extends battery-life and enables use of smaller batteries)
