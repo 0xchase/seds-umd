@@ -1,5 +1,7 @@
 # Group 3
 
+Members: Sahil Mayenkar, Chris Tharratt
+
 This week we will be setting up our development environment and conducting research into various parts of the design. All groups will set up the same development environment, but will be doing different research. 
 
 ## Instructions
