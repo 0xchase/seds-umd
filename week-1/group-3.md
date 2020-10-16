@@ -30,7 +30,7 @@ These are general guidelines, but use your own judgement to determine what you t
 
   tl;dr Communication to and from space is dificult.
   
-  ####Links:
+  #### Links:
    * Good information and general summary can be found [here](https://www.reddit.com/r/cubesat/comments/bo647j/how_to_set_up_a_uhfvhf_ground_station/)
    * [SatNOGS](https://satnogs.org/) is the Open Source Ground Station Network. 
    * [Smallsat/Cubesat Ground Communication Methods and Limitations](https://www.spacesymposium.org/wp-content/uploads/2017/10/J.Startup_31st_Space_Symposium_Tech_Track_paper.pdf)
@@ -51,9 +51,11 @@ These are general guidelines, but use your own judgement to determine what you t
   groundstation, or one that we rent. 
    
   We can also rent use of ground stations. Amazon Web Services includes pricing for renting ground station communication
-  on a per minute basis. This is also pretty expensive and is roughly $1,470/week for about 147 minutes of time. 
+  on a per minute basis. This is also pretty expensive and is roughly $1,470/week for about 147 minutes of time. I do not
+  think that this is feasible, and it would likely be better to see if any Amateur Radio operators have their own
+  ground stations, build our own, or look into ground station networks (see SatNOGS). 
 
-  ####Communication "Bands"
+  #### Communication "Bands"
   * Very High Frequency (VHF);: 30 to 300 MHz
   * Ultra High Frequency (UHF): 300 Mhz to 3 Ghz
   * L band: 1 to 2 Ghz
