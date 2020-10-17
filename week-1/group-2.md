@@ -27,7 +27,7 @@ These are general guidelines, but use your own judgement to determine what you t
 ## Results
  
  - TPL5010-Q1 is a dedicated external hardware watchdog (AEC-Q100 qualified timer)
-	- >$1 off-the-shelf (ti.com)
+	- <$1 off-the-shelf (ti.com)
 	- ideal for duty-cycled or battery-powered application
 	- consumes 35 nA at 2.5 V
 	- good for power-sensitive applications (extends battery-life and enables use of smaller batteries)
@@ -71,4 +71,24 @@ These are general guidelines, but use your own judgement to determine what you t
 		- first gives interrupt, then switches to System Reset mode
 		- allows for safe shutdown by saving critical parameters before system reset
 
-	
+MAX824 - Microprocessor with WTD and manual reset
+- $1.60
+- 40 - 125 degrees celcius operating temp
+- WDT 1.6 second timeout
+	- If not pinged, will cycle power with a MOSFET transistor
+	- 300 MeV, no damage induced
+	- When WDT exposed to laser, it stopped working
+
+Implementation
+- Watchdog should not be able to be touched by anything except for to restart the timer. If something breaks we want to ensure it is not bypassed or overwritten
+- They are usually connected to a micro-controller, and will reset if the processor does not reset the timer.
+- I don't know if this is a potential issue for us, but in some cases a standard WDT will reach a fault state that will continually reset the timer, so the system will never reboot. 
+	- This is where windowed WDTs come in, which consist of two timers so the timer would not be reset early 
+		- for example if a standard WTD reset every 1 ms, this windowed WTD would notice if the timer was resetting at .3 ms and reset the processor, and it will also do the reset if the timer doesn't get reset by the program
+
+- Depending on how complex our embedded system is, we can use each subsystem to act as a watchdog for others (peer watching)
+
+- TI MSP430 or the Microchip PIC18FXXXX series micro- controllers, 8 bit microcontrollers that take almost no board space
+
+- Link for more info & further research: (page 10)
+	 -https://www.beningo.com/wp-content/uploads/images/Papers/WatchdogArchitectureReview.pdf

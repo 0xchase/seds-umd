@@ -28,4 +28,6 @@ These are general guidelines, but use your own judgement to determine what you t
  
  ## Results
  
- Fill your research in here. When you're done, commit your changes and submit a pull request. 
+ Most of the hardware platforms for which FreeRTOS has been ported are documented on the official FreeRTOS website itself: https://www.freertos.org/RTOS_ports.html
+ 
+ Here is the link to the spreadsheet I plan to completely fill comapring all the different hardware platforms: https://docs.google.com/spreadsheets/d/1RH7zunQR9hyc0uh0WfrEifFn-An-V7xa7kjh6EEy47c/edit#gid=0
