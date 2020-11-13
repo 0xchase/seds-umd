@@ -4,4 +4,4 @@ For this challenge you'll try some basic debugging using `gdb`. Debuggers allow 
 
 ---
 
-Solution: <value of x here>
+Solution: 80
