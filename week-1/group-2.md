@@ -92,3 +92,27 @@ Implementation
 
 - Link for more info & further research: (page 10)
 	 -https://www.beningo.com/wp-content/uploads/images/Papers/WatchdogArchitectureReview.pdf
+-------------------------------------------------------------------------------------------------------------------------------
+WEEK 3 Linux distros  research
+NASA used a custom linux distro for the marCO mission on a GumStix single board computer.
+https://arc.aiaa.org/doi/pdf/10.2514/6.2016-2491 
+page 6
+
+Kubos
+- open source
+- updated regularly
+- C, rust, python
+
+Alen Space 
+- TOTEM DVB-S2 and TRISKEL software
+- TOTEM good for download of data up to 2 MBPS and transmission of large files
+- No pricing info unless you request, so it could be pricey
+
+Absolute linux
+- Easy to configure
+- Highly streamlined and plenty of documentation
+- Made for desktop use, but is nimble and lightweight (doesn't take too much memory)
+
+Ubuntu/ Lubuntu
+- lightweight ubuntu requires fewer recources, but they are overall similar
+- fast and energy efficient
