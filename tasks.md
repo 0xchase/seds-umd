@@ -5,6 +5,7 @@
  
 **Machine Learning**: Developing a machine learning algorithm to track particle velocities in a video.
  - Patrick
+ - Sahil?
 
 **Radio**: Working with the UMD radio club to write software for the new ground station.
  - Karen
