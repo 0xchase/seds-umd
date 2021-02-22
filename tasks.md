@@ -6,6 +6,8 @@
 **Machine Learning**: Developing a machine learning algorithm to track particle velocities in a video.
  - Patrick
  - Sahil?
+ - http://site.physics.georgetown.edu/matlab/
+ - https://web.stanford.edu/~nto/software_tracking.shtml.
 
 **Radio**: Working with the UMD radio club to write software for the new ground station.
  - Karen
